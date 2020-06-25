@@ -1,0 +1,158 @@
+body {
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    color: hsl(234, 12%, 34%);
+}
+
+h2 {
+    margin: 0;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+img {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.intro {
+    width: 500px;
+    margin: 75px auto 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.intro p {
+    font-size: 15px;
+}
+
+.h1-normal {
+    font-weight: 200;
+}
+
+.h1-bolder {
+    font-weight: 600;
+}
+
+.cards {
+    width: 1170px;
+    height: 540px;
+    margin: 75px auto;
+    position: relative;
+}
+
+.card {
+    border-radius: 5px;
+    width: 290px;
+    height: 190px;
+    padding: 30px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06);
+
+    position: absolute;
+    font-size: 13px;
+}
+
+.supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+    top: 150px;
+    left: 30px;
+}
+
+.team-builder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+    left: 410px;
+}
+
+.karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+    left: 410px;
+    top: 280px;
+}
+
+.calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+    top: 150px;
+    right: 30px;
+}
+
+
+
+@media (max-width: 1180px) {
+
+    .intro {
+        width: 390px;
+    }
+
+    .cards {
+        width: 350px;
+        height: 1110px;
+    }
+
+    .card {
+        position: relative;
+    }
+
+    .supervisor {
+        top: 0;
+        left: 0;
+    }
+    
+    .team-builder {
+        top: 30px;
+        left: 0;
+    }
+    
+    .karma {
+        top: 60px;
+        left: 0;
+    }
+    
+    .calculator {
+        top: 90px;
+        left: 0;
+    }
+}
+
+
+@media (max-width: 375px) {
+
+    body { 
+        font-size: 12px;
+    }
+
+    img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .intro {
+        width: 320px;
+        font-size: 12px;
+    }
+
+    .cards {
+        height: 1000px;
+    }
+
+    .card {
+
+        width: 250px;
+        height: 160px;
+        margin: 0 auto;
+    }
+
+    .card-paragraph {
+        margin: 0;
+    }
+}
+
